@@ -35,9 +35,9 @@ public class TestRailAutoBackUp300 {
 
 
         // Creating header
-        log.println("**************************************************");
+        log.println("\r\n--------------------------------------------------");
         log.println("START AT " + formatDateForLogHeader.format(currentDate));
-        log.println("**************************************************");
+        log.println("--------------------------------------------------");
 
 
         LoadSettingsData settingsMap1 = new LoadSettingsData();
@@ -102,7 +102,7 @@ public class TestRailAutoBackUp300 {
 
 
         // Magic actions
-        log.println("**************************************************");
+        log.println("--------------------------------------------------");
         log.println("The total number of projects: " + listOfProjects.size());
 
 
@@ -118,7 +118,7 @@ public class TestRailAutoBackUp300 {
             }
         }
 
-        log.println("**************************************************");
+        log.println("--------------------------------------------------");
         log.println("Start download actions:");
 
 
@@ -181,10 +181,9 @@ public class TestRailAutoBackUp300 {
 
         // Close browser and finish the app
         driver.close();
-        log.println("**************************************************" +
+        log.println("--------------------------------------------------" +
                 "\r\nFinished." +
-                "\r\nAll projects successfully saved!" +
-                "\r\n**************************************************\r\n \r\n \r\n");
+                "\r\n--------------------------------------------------\r\n \r\n \r\n");
     }
 
 
