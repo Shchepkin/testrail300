@@ -5,15 +5,18 @@ import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 public class LoadSettingsData {
 
     public static String settingsFileName = "settings.ini";
 
-    public List getSettings() throws IOException {
+    public Map getSettings() throws IOException {
 
         Log log = new Log();
+        Map<String, String> settingsMap = new HashMap<String, String>();
 
 
         // Load full settings from file to the settings list
@@ -29,17 +32,22 @@ public class LoadSettingsData {
         // 2. Delete comment lines
         log.print("Sorting data in the full list of settings... ");
         for (int i = 0; i < listOfSettings.size(); ) {
-            if (listOfSettings.get(i).isEmpty() || listOfSettings.get(i).startsWith("//=")) {
+            if (listOfSettings.get(i).isEmpty() || listOfSettings.get(i).startsWith("#")) {
                 listOfSettings.remove(i);
             } else i++;
         }
         log.println(" Done");
 
-        return listOfSettings;
+
+        // Creation Map with settings:
+        log.print("Creation Map with settings... ");
+        for (String i : listOfSettings) {
+            String[] split = i.split("-->");
+            settingsMap.put(split[0], split[1]);
+        }
+        log.println(" Done");
+
+
+        return settingsMap;
     }
-
-
-
-
-
 }
