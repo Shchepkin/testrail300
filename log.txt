@@ -1,9 +1,194 @@
 **************************************************
-START AT Fri Sep 30 19:40:36 EEST 2016
+START AT 03.10.2016  21.56.31
 **************************************************
 Creating full list of settings from file...  Done
 Sorting data in the full list of settings...  Done
 Creating FF WebDriver...  Done
+Opening TestRail's page URL...  Done
+Authorization...  Done
+Creating list of Projects, using Xpath locator...  Done
+Creating list of Test Cases links...  Done
+**************************************************
+The total number of projects: 6
+CSA - Hub - Military - Mobile - SRS - Web
+**************************************************
+Start download actions:
+Downloading CSA Project...  Already Exist!
+Downloading Hub Project...  Already Exist!
+Downloading Military Project...  Already Exist!
+Downloading Mobile Project...  Already Exist!
+Downloading SRS Project...  Already Exist!
+Downloading Web Project...  Already Exist!
+**************************************************
+Finished.
+All projects successfully saved!
+**************************************************
+ 
+ 
+
+**************************************************
+START AT 04.10.2016  17.33.41
+**************************************************
+Creating full list of settings from file...  Done
+Sorting data in the full list of settings...  Done
+Creating FF WebDriver...  Done
+Opening TestRail's page URL...  Done
+Authorization...  Done
+Creating list of Projects, using Xpath locator...  Done
+Creating list of Test Cases links...  Done
+**************************************************
+The total number of projects: 6
+CSA - Hub - Military - Mobile - SRS - Web
+**************************************************
+Start download actions:
+Downloading CSA Project...  Done
+Downloading Hub Project...  Done
+Downloading Military Project...  Done
+Downloading Mobile Project...  Done
+Downloading SRS Project...  Done
+Downloading Web Project...  Done
+**************************************************
+Finished.
+All projects successfully saved!
+**************************************************
+ 
+ 
+
+**************************************************
+START AT 05.10.2016  14.31.46
+**************************************************
+Creating full list of settings from file...  Done
+Sorting data in the full list of settings...  Done
+Creating FF WebDriver...  Done
+Opening TestRail's page URL...  Done
+Authorization...  Done
+Creating list of Projects, using Xpath locator...  Done
+Creating list of Test Cases links...  Done
+**************************************************
+The total number of projects: 0
+**************************************************
+Start download actions:
+**************************************************
+Finished.
+All projects successfully saved!
+**************************************************
+ 
+ 
+
+**************************************************
+START AT 05.10.2016  14.33.28
+**************************************************
+Creating full list of settings from file...  Done
+Sorting data in the full list of settings...  Done
+Creating FF WebDriver...  Done
+Opening TestRail's page URL...  Done
+Authorization...  Done
+Creating list of Projects, using Xpath locator...  Done
+Creating list of Test Cases links...  Done
+**************************************************
+The total number of projects: 6
+CSA - Hub - Military - Mobile - SRS - Web
+**************************************************
+Start download actions:
+Downloading CSA Project...  Don't saved!
+Downloading Hub Project...  Don't saved!
+Downloading Military Project...  Don't saved!
+Downloading Mobile Project...  Don't saved!
+Downloading SRS Project...  Don't saved!
+Downloading Web Project...  Don't saved!
+**************************************************
+Finished.
+All projects successfully saved!
+**************************************************
+ 
+ 
+
+**************************************************
+START AT 05.10.2016  14.36.27
+**************************************************
+Creating full list of settings from file...  Done
+Sorting data in the full list of settings...  Done
+Creating FF WebDriver... **************************************************
+START AT 05.10.2016  14.37.16
+**************************************************
+Creating full list of settings from file...  Done
+Sorting data in the full list of settings...  Done
+Creating FF WebDriver...  Done
+Opening TestRail's page URL...  Done
+Authorization...  Done
+Creating list of Projects, using Xpath locator...  Done
+Creating list of Test Cases links...  Done
+**************************************************
+The total number of projects: 6
+CSA - Hub - Military - Mobile - SRS - Web
+**************************************************
+Start download actions:
+Downloading CSA Project...  Done
+Downloading Hub Project...  Done
+Downloading Military Project...  Done
+Downloading Mobile Project...  Done
+Downloading SRS Project...  Done
+Downloading Web Project...  Done
+**************************************************
+Finished.
+All projects successfully saved!
+**************************************************
+ 
+ 
+
+**************************************************
+START AT 05.10.2016  14.41.07
+**************************************************
+Creating full list of settings from file...  Done
+Sorting data in the full list of settings...  Done
+Creating FF WebDriver...  Done
+Opening TestRail's page URL...  Done
+Authorization...  Done
+Creating list of Projects, using Xpath locator...  Done
+Creating list of Test Cases links...  Done
+**************************************************
+The total number of projects: 6
+CSA - Hub - Military - Mobile - SRS - Web
+**************************************************
+Start download actions:
+Downloading CSA Project...  Already Exist!
+Downloading Hub Project...  Already Exist!
+Downloading Military Project...  Already Exist!
+Downloading Mobile Project...  Already Exist!
+Downloading SRS Project...  Already Exist!
+Downloading Web Project...  Already Exist!
+**************************************************
+Finished.
+All projects successfully saved!
+**************************************************
+ 
+ 
+
+Creating full list of settings from file...  Done
+Sorting data in the full list of settings...  Done
+ Done
+Creating full list of settings from file...  Done
+Sorting data in the full list of settings...  Done
+ Done
+**************************************************
+START AT 06.10.2016  18.37.36
+**************************************************
+Creating FF WebDriver... **************************************************
+START AT 06.10.2016  18.44.00
+**************************************************
+Creating full list of settings from file...  Done
+Sorting data in the full list of settings...  Done
+Creation Map with settings...  Done
+Creating FF WebDriver...  Done
+Opening TestRail's page URL...  Done
+Authorization...  Done
+Creating list of Projects, using Xpath locator... **************************************************
+START AT 06.10.2016  18.48.25
+**************************************************
+Creating full list of settings from file...  Done
+Sorting data in the full list of settings...  Done
+Creation Map with settings...  Done
+Creation FF WebDriver...  Done
 Opening TestRail's page URL...  Done
 Authorization...  Done
 Creating list of Projects, using Xpath locator...  Done
