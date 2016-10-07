@@ -40,9 +40,8 @@ public class TestRailAutoBackUp300 {
         log.println("--------------------------------------------------");
 
 
-        LoadSettingsData settingsMap1 = new LoadSettingsData();
-        Map<String, String> settingsMap = new HashMap<String, String>();
-        settingsMap = settingsMap1.getSettings();
+        // Creation settingsMap object
+        Map<String, String> settingsMap = new LoadSettingsData().getSettings();
 
 
         // Create FF profile dir path
