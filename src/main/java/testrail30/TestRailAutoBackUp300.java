@@ -124,8 +124,7 @@ public class TestRailAutoBackUp300 {
         // Take numbers of projects from Test Cases Links
         List numberOfProjects = new ArrayList();
         for (int i = 0; i < listOfTestCasesLinks.size(); i++) {
-            String testCasesLink = listOfTestCasesLinks.get(i).getAttribute("href");
-            String[] splitLinks = testCasesLink.split("/");
+            String[] splitLinks = listOfTestCasesLinks.get(i).getAttribute("href").split("/");
             numberOfProjects.add(splitLinks[splitLinks.length - 1]);
         }
 
