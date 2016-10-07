@@ -31,7 +31,7 @@ public class TestRailAutoBackUp300 {
 
         // Create log Object
         Log log = new Log();
-        System.out.println("Done " + "\r\nNext processes writing to the log.txt in the folder\r\n" + startUpPath);
+        System.out.println("Done " + "\r\nNext processes will be written to the log.txt at the folder\r\n" + startUpPath);
 
 
         // Creating header
