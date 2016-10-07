@@ -5,13 +5,14 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.io.UnsupportedEncodingException;
 import java.net.MalformedURLException;
+import java.nio.file.Path;
 
 
 public class Log {
 
     public static String logFileName = "log.txt";
-    ApplicationStartUpPath startUpPath = new ApplicationStartUpPath();
-    File file = new File(startUpPath.getApplicationStartUp() + "/" + logFileName);
+    Path startUpPath = new ApplicationStartUpPath().getApplicationStartUp();
+    File file = new File(startUpPath + "/" + logFileName);
 
 
     // Create new log-file if it doesn't exist

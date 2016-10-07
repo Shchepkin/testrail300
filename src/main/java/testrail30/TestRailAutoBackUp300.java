@@ -7,18 +7,18 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxProfile;
 
 import java.io.File;
+import java.nio.file.Path;
 import java.text.SimpleDateFormat;
 import java.util.*;
 
 
 public class TestRailAutoBackUp300 {
 
-
     public static void main(String[] args) throws Exception {
         System.out.println("Start application");
 
-        // Taking current date
-        // Formatting current date
+
+        // Taking and formatting current date
         Date currentDate = new Date();
         SimpleDateFormat formatDate = new SimpleDateFormat("yyyy.MM.dd");
         SimpleDateFormat formatDateForLogHeader = new SimpleDateFormat("dd.MM.yyyy  HH.mm.ss");
@@ -26,12 +26,12 @@ public class TestRailAutoBackUp300 {
 
         System.out.print("Creating logFile...  ");
         // Take path to folder with running this jar-file
-        ApplicationStartUpPath startUpPath = new ApplicationStartUpPath();
+        Path startUpPath = new ApplicationStartUpPath().getApplicationStartUp();
+
+
         // Create log Object
         Log log = new Log();
-        System.out.println("Done " +
-                "\r\nNext processes writing to the log.txt in the folder\r\n" +
-                startUpPath.getApplicationStartUp());
+        System.out.println("Done " + "\r\nNext processes writing to the log.txt in the folder\r\n" + startUpPath);
 
 
         // Creating header
@@ -46,7 +46,7 @@ public class TestRailAutoBackUp300 {
 
         // Create FF profile dir path
         log.print("Creation FF WebDriver... ");
-        File profileDir = new File(String.valueOf(startUpPath.getApplicationStartUp()) + "/" + settingsMap.get("folderNameOfBrowserProfile"));
+        File profileDir = new File(String.valueOf(startUpPath) + "/" + settingsMap.get("folderNameOfBrowserProfile"));
 
 
         // Create FFox Driver with profiled browser
@@ -158,7 +158,7 @@ public class TestRailAutoBackUp300 {
 
                 // Run AutoIT script from command prompt and here is the path of the script
                 // After than it waits 1 sec
-                Runtime.getRuntime().exec(startUpPath.getApplicationStartUp() + "/" +
+                Runtime.getRuntime().exec(startUpPath + "/" +
                         "TestRailExport.exe \"" +
                         listOfProjects.get(i).getText() + "\" \"" +
                         settingsMap.get("saveWindowTitle") + "\" \"" +
